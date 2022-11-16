@@ -8,7 +8,9 @@ export default function Page() {
   return (
     <div className={styles.container}>
 
-    <span>Click <Link href="/">Here</Link> to go back</span>
+<h1 className={styles.title}>
+          <Link href="/">Click here to go back</Link>
+        </h1>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Beers page!</a>
