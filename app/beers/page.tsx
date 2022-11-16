@@ -1,9 +1,14 @@
 import Image from 'next/image'
 import styles from '../page.module.css'
+import Link from 'next/link';
+
 
 export default function Page() {
+
   return (
     <div className={styles.container}>
+
+    <span>Click <Link href="/">Here</Link> to go back</span>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Beers page!</a>
